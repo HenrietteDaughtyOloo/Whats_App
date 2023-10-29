@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatsAppClone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="all_calls">Hello blank fragment</string>
+    <string name="all_chats">All Chats</string>
+    <string name="all_status">All Statuses</string>
+    <string name="all_call">All Calls</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="verify_your_phone_number">Verify Your Phone Number</string>
+    <string name="an_otp_will_be_sent_on_your_number_to_verify">An OTP will be sent on Your number to Verify</string>
+</resources>

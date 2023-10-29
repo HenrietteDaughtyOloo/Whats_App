@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435928289079",
+    "project_id": "whatsapp-clone-chat-app-6ee79",
+    "storage_bucket": "whatsapp-clone-chat-app-6ee79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435928289079:android:798a94f5cae6186d0d14b2",
+        "android_client_info": {
+          "package_name": "com.henriette.whatsappclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLlKbejwSs1RVQWnMP6C3RO3tiRGivpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
