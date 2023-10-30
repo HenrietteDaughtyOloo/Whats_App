@@ -1,6 +1,7 @@
 package com.henriette.whatsappclone.activity
 
 import android.content.Intent
+import android.nfc.Tag
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -44,13 +45,14 @@ class OTPActivity : AppCompatActivity() {
         val phoneNumber = "+254" + intent.getStringExtra("number")
 
 
-//        Log.d("SHUBH", "onCreate": "+phoneNumber")
+        Log.d("SHUBH", "onCreate:" +phoneNumber)
         val options = PhoneAuthOptions.newBuilder(auth)
             .setPhoneNumber(phoneNumber)
             .setTimeout(60L, TimeUnit.SECONDS)
             .setActivity(this)
             .setCallbacks(object : OnVerificationStateChangedCallbacks() {
                 override fun onVerificationCompleted(p0: PhoneAuthCredential) {
+
                 }
 
                 override fun onVerificationFailed(p0: FirebaseException) {

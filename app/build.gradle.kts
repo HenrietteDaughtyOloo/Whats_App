@@ -73,6 +73,10 @@ dependencies {
     implementation("com.google.firebase:firebase-appcheck-playintegrity")
     implementation("com.google.firebase:firebase-appcheck-ktx")
 
+    //SAfetynet
+    implementation ("com.google.android.gms:play-services-safetynet:18.0.1")
+
+
 
 
 
