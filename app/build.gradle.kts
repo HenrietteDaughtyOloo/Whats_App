@@ -76,6 +76,11 @@ dependencies {
     //SAfetynet
     implementation ("com.google.android.gms:play-services-safetynet:18.0.1")
 
+    //Database
+    implementation("com.google.firebase:firebase-database-ktx")
+
+
+
 
 
 

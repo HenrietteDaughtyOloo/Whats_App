@@ -57,7 +57,8 @@ class OTPActivity : AppCompatActivity() {
 
                 override fun onVerificationFailed(p0: FirebaseException) {
                     dialog.dismiss()
-                    Toast.makeText(this@OTPActivity, "OOpps, Please Try Again!! ${p0}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@OTPActivity, "OOpps, Please Try Again!! ${p0}",
+                        Toast.LENGTH_SHORT).show()
                 }
 
                 override fun onCodeSent(p0: String, p1: PhoneAuthProvider.ForceResendingToken) {
@@ -76,8 +77,8 @@ class OTPActivity : AppCompatActivity() {
             } else {
                 dialog.show()
                 val credential = PhoneAuthProvider.getCredential(
-                    verificationId!!,
-                    binding.tilOtpNumber.text.toString()
+                    verificationId,
+                    binding.tilOtpNumber.text!!.toString()
                 )
 
                 auth.signInWithCredential(credential)
